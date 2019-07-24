@@ -1,0 +1,157 @@
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+
+.is-open-left {
+	/* transform: translateX(450px); */
+}
+
+.off-canvas-content.is-open-left.has-transition-push {
+	transform: translateX(400px);
+}
+
+.position-left {
+	width: 400px;
+	transform: translateX(-400px);
+}
+
+.off-canvas.position-left {
+	
+	/* left: -450px; */
+	padding: 1rem;
+	background: none;
+}
+
+.off-canvas-content {
+	min-height: 100vh;
+}
+
+.main-buttons {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.main-buttons .button + .button {
+	margin-left: 0.5rem;
+}
+
+.main-buttons .options.options {
+	margin-left: auto;
+}
+
+.button.success {
+	color: #ffffff;
+}
+
+.main-area {
+	padding-top: 1rem;
+	padding-bottom: 5rem;
+}
+
+.main-area h5 {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.main-area .row:nth-child(2) {
+	margin-top: 2rem;
+}
+
+.flex {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: baseline;
+}
+
+p.small {
+	font-size: 0.9rem;
+}
+
+header.flex h5 + a, #savegraph {
+	margin-left: auto;
+}
+
+#savegraph {
+	margin-top: 0.5rem;
+}
+
+#canvas {
+	background: #fafafa;
+	padding: 1rem;
+}
+
+.footer {
+	width: 100%;
+	padding-top: 1rem;
+	bottom: 0;
+	position: fixed;
+	background: #ffffff;
+	box-shadow: 0 0 10px rgba(0,0,0,.15);
+}
+
+.vis {
+	opacity: 0;
+	transition: all 0.2s;
+}
+
+.vis.done {
+	opacity: 1;
+}
+
+/* index2 */
+
+.row {
+	max-width: none;
+}
+
+.input-group {
+	width: auto;
+	display: inline-block;
+	vertical-align: middle;
+	border-bottom: 1px dashed;
+}
+
+.input-group > * {
+	display: inline-block;
+}
+
+.input-group input {
+	max-width: 8rem;
+	border: none;
+	box-shadow: none;
+	text-align: right;
+	padding: 0;
+}
+
+.input-group .input-group-label {
+	border: none;
+	background: none;
+	text-align: left;
+	padding: 0;
+	color: #afafaf;
+}
+
+.tab-content {
+	display: none;
+}
+
+.tab-content.active {
+	display: block;
+}
+
+#tabs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	display: flex;
+	justify-content: flex-start;
+}
+
+#tabs a {
+	padding: 1rem;
+}
+
+.core {
+	padding-bottom: 6rem;
+}
